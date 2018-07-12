@@ -1,0 +1,18 @@
+<html>
+<head></head>
+<body>
+<script>
+wins=[];
+function openW(){
+    wins.push(window.open("","",""))
+}
+function closeW(){
+    wins.pop().window.close()
+}
+</script>
+
+<button onclick="openW()">открыть</button>
+<\br>
+<button onclick="closeW()">закрыть</button>
+</body>
+</html>
